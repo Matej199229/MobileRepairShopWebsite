@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mobile Repair Shop Website</title>
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <!-- Navbar Begin -->
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+      <div class="navbar__container container">
+          <div class="navbar__logo">
+        <a href="index.html" aria-label="Logo Home Link"><img src="images/Logo.png" alt="Website logo"></a>
+      </div>
+          <!-- Desktop Menu Begin -->
+          <div class="navbar__main-menu-items">
+              <ul class="navbar__main-menu-list">
+                  <li class="navbar__menu-item"><a href="index.html#products" class="navbar__menu-link">Products</a></li>
+                  <li class="navbar__menu-item"><a href="index.html#services" class="navbar__menu-link">Services</a></li>
+                  <li class="navbar__menu-item"><a href="index.html#about" class="navbar__menu-link">About</a></li>
+                  <li class="navbar__menu-item"><a href="index.html#testimonials" class="navbar__menu-link">Testimonials</a></li>
+                  <li class="navbar__menu-item"><a href="contact.html" class="navbar__menu-link">Contact</a></li>
+                  <li class="navbar__menu-item"><a href="mailto:test@test.com" class="btn_red navbar__menu-link--primary" target="_blank" aria-label="Repair my device">Repair My Device</a></li>
+              </ul>
+          </div>
+          <!-- Desktop Menu End -->
+          <!-- Mobile Menu Begin -->
+          <div class="navbar__mobile-menu">
+              <!-- Hamburger Button -->
+              <div class="navbar__mobile-menu-toggle" role="button" aria-expanded="false" aria-controls="navbar__mobile-menu-items" aria-label="Open Mobile Menu" tabindex="0">
+                <i class="fas fa-bars fa-2x"></i>
+              </div>
+          <div class="navbar__mobile-menu-items" id="navbar__mobile-menu-items">
+              <ul class="navbar__mobile-menu-list">
+                  <li class="navbar__mobile-menu-item"><a href="index.html#products" class="navbar__mobile-menu-link">Products</a></li>
+                  <li class="navbar__mobile-menu-item"><a href="index.html#services" class="navbar__mobile-menu-link">Services</a></li>
+                  <li class="navbar__mobile-menu-item"><a href="index.html#about" class="navbar__mobile-menu-link">About</a></li>
+                  <li class="navbar__mobile-menu-item"><a href="index.html#testimonials" class="navbar__mobile-menu-link">Testimonials</a></li>
+                  <li class="navbar__mobile-menu-item"><a href="contact.html" class="navbar__mobile-menu-link">Contact</a></li>
+                  <li class="navbar__mobile-menu-item"><a href="mailto:test@test.com" class="btn_red" target="_blank" aria-label="Email Us">Repair My Device</a></li>
+              </ul>
+          </div>
+          </div>
+          <!-- Mobile Menu End -->
+      </div>
+  </nav>
+  <!-- Navbar End -->
+     <!-- Hero Begin -->
+     <section class="hero" id="home" role="banner">
+        <div class="container">
+            <div class="hero__content">
+          <h1 class="hero__title">Restore, Resell, Renew and Revamp
+            Repair Your Devices, Reimagine Their Potential!</h1>
+          <p class="hero__text">
+            Give your Phones, Laptops, PCs, the top tier device care.
+            </p>
+            <p class="hero__text">
+              Experience the synergy of technological expertise and personalized service, as we cater to your device&rsquo;s repair and accessorizing needs.
+              </p>
+          <div class="hero__buttons">
+          <a href="mailto:test@test.com" class="btn_red" role="button" aria-label="Repair My Device">Repair My Device</a>
+          <a href="index.html#services" class="btn_white" role="button" aria-label="View Services">View Services</a>
+        </div>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stats-item"><i class="fas fa-star fa-2x"></i><h3 class="hero__stats-item-title">4.5+</h3>
+            <p class="hero__stats-item-description">Ratings</p>
+          </div>
+          <div class="hero__stats-item"><i class="fas fa-comments fa-2x"></i><h3 class="hero__stats-item-title">1000+</h3>
+            <p class="hero__stats-item-description">Reviews</p>
+          </div>
+          <div class="hero__stats-item"><i class="fas fa-users fa-2x"></i><h3 class="hero__stats-item-title">5000+</h3>
+            <p class="hero__stats-item-description">Customers</p>
+          </div>
+          <div class="hero__stats-item"><i class="fas fa-store fa-2x"></i><h3 class="hero__stats-item-title">04+</h3>
+            <p class="hero__stats-item-description">Stores</p>
+          </div>
+        </div>
+        </div>              
+    </section>
+     <!-- Hero End -->
+      <!-- Products Begin -->
+       <section class="products" id="products" role="main">
+        <div class="container">
+          <div class="products__header">
+          <h2 class="products__title">We believe in the 4 R&rsquo;s of device care.</h2> 
+        </div> 
+        <div class="products__content">
+          <div class="products__content-item"><img class="products__content-item-image" src="Images/Restore_Icon.png" alt="Restore Icon"><h3 class="products__content-item-title">Restore</h3>
+          </div>
+          <div class="products__content-item"><img class="products__content-item-image" src="Images/Resell_Icon.png" alt="Resell Icon"><h3 class="products__content-item-title">Resell</h3>
+          </div>
+          <div class="products__content-item"><img class="products__content-item-image" src="Images/Renew_Icon.png" alt="Renew Icon"><h3 class="products__content-item-title">Renew</h3>
+          </div>
+          <div class="products__content-item"><img class="products__content-item-image" src="Images/Revamp_Icon.png" alt="Revamp Icon"><h3 class="products__content-item-title">Revamp</h3>
+          </div>
+        </div>
+      </div>
+       </section>
+      <!-- Products End -->
+       <!-- Services Begin -->
+        <section class="services" id="services">
+          <div class="container">
+            <div class="services__header">
+              <h2 class="services__title">Services: What we offer</h2>
+            </div>
+            <div class="services__cards">
+              <!-- Card 1 Begin --> 
+              <div class="services__card">    
+                      <img class="services__icon" src="Images/MobilePhone_Icon.png" alt="Mobile Icon">     
+                      <h4 class="services__header">Mobile Phone</h4>
+                      <p class="services__description">Is your cell phone battery draining at lightning speed, even with a power saver? Does your phone lag when switching between apps?</p>
+                      <p class="services__description">It&rsquo;s time to get it fixed! At Tech Dot Com, our skilled team and cutting&#8209;edge equipment can resolve any issue and make your phone as good as new.</p>
+                    <div class="services__button">
+                      <a class="services__button btn_white" href="index.html#services" role="button">View Services</a>
+                    </div>
+              </div>
+              <!-- Card 1 End -->
+              <!-- Card 2 Begin --> 
+              <div class="services__card"> 
+                <img class="services__icon" src="Images/Desktop_Icon.png" alt="Desktop Icon">        
+                <h4 class="services__header">Desktop</h4>
+                <p class="services__description">Computers are complex and prone to issues like hardware failures and software glitches. Don&rsquo;t let them slow you down!</p>
+                <p class="services__description">At Tech Dot Com, we provide comprehensive diagnosis and repair services for your PCs. Leave your worries behind and trust us to keep your computer running smoothly.</p>
+                <div class="services__button">
+                <a class="btn_white" href="index.html#services" role="button">View Services</a>
+              </div>
+        </div>
+              <!-- Card 2 End -->
+              <!-- Card 3 Begin --> 
+              <div class="services__card">  
+                <img class="services__icon" src="Images/Laptop_Icon.png" alt="Laptop Icon">       
+                <h4 class="services__header">Laptop</h4>
+                <p class="services__description">Your laptop is your go&#8209;to for entertainment and work, but heating issues, malfunctioning keyboards, sluggish performance, etc. can be a major setback.</p>
+                <p class="services__description">Don&rsquo;t worry! At Tech Dot Com, we understand the importance of a quick turnaround and quality repairs. Get your laptop up and running smoothly in no time!</p>
+                <div class="services__button">            
+                <a class="btn_white" href="index.html#services" role="button">View Services</a>
+              </div> 
+        </div>
+              <!-- Card 3 End -->
+      </div>
+          </div>
+        </section>
+       <!-- Services End -->
+        <!-- Process Begin -->
+        <section class="process" id="process">
+          <div class="container-lg">
+              <div class="process__content">
+            <h2 class="process__title">Process: How we work</h2>
+            <p class="process__text">
+              At Tech Dot Com, we take pride in our streamlined approach to providing exceptional services. Our goal is to deliver reliable and high-quality services
+               that exceed your expectations. Trust us to work diligently and efficiently to meet your electronic needs.
+              </p>
+              <div class="process_image">
+              <img class="process_image-img" src="Images/Process_Image.jpg" alt="Process Image">
+            </div>
+          </div>
+          <div class="process__steps">
+            <div class="process__step"><h4 class="process__step-heading">Step<span class="process__step-heading--number">1</span></h4><p class="process__step-description">Drop the phone at any of your nearest TechDotCom stores.</p></div>
+            <div class="process__step"><h4 class="process__step-heading">Step<span class="process__step-heading--number">2</span></h4><p class="process__step-description">Our process begins with a thorough assessment of your device or issue, conducted by our knowledgeable technicians while providing you with a courtesy phone if required.</p></div>
+            <div class="process__step"><h4 class="process__step-heading">Step<span class="process__step-heading--number">3</span></h4><p class="process__step-description">After the diagnosis our team gets to work, utilizing the latest tools and techniques to deliver efficient repairs, upgrades, or troubleshooting.</p></div>
+            <div class="process__step"><h4 class="process__step-heading">Step<span class="process__step-heading--number">4</span></h4><p class="process__step-description">We will inform you to pick up the device via their preferred mode of communication.</p></div>
+            <div class="process__step"><h4 class="process__step-heading">Step<span class="process__step-heading--number">5</span></h4><p class="process__step-description">Drop the phone at any of your nearest TechDotCom stores.</p></div>
+          </div>
+          <div class="process_button">
+            <a href="mailto:test@test.com" class="btn_red" role="button">Repair my Device</a>
+          </div>
+          </div>              
+      </section>
+        <!-- Process End -->
+         <!-- About Begin -->
+         <section class="about" id="about">
+          <div class="container">
+            <div class="about__heading">
+              <h2 class="about__heading-title">About us : Who we are</h2>
+              <p class="about__heading-description">We are passionate about all things tech and committed to providing top-notch services and cutting-edge products to our customers. From repairs to accessories, we've got you covered. Trust our skilled team to keep you connected, informed, and entertained. Experience excellence in electronic solutions with Tech Dot Com.</p>
+              <p class="about__heading-description">Come visit our friendly team at one of our offices.</p>
+            </div>
+          <div class="about__map" role="img" aria-label="our location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.004813246739!2d-79.3790848!3d43.6480682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb2d4508294b%3A0xbc13e66f943857fa!2sCommerce%20Court%20West!5e0!3m2!1sen!2sca!4v1740171663587!5m2!1sen!2sca" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>    
+          </div>
+      </section>
+     <!-- About End -->
+      <!-- Testimonials Begin -->
+       <section class="testimonials" id="testimonials">
+        <div class="container">
+          <div class="testimonials__heading">
+            <h2 class="testimonials__heading-title">Testimonials: What clients say us</h2>
+            <p class="testimonials__heading-description">Hear from some of our amazing customers who are building faster.</p>
+          </div>
+          <div class="testimonials__cards">
+            <!-- Card 1 Begin --> 
+            <div class="testimonials__card">    
+              <div class="testimonials__stars">  
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>   
+                    <p class="testimonials__testimonial">&quot;This store has never let me down. They have a wide range of products and their prices are very reasonable. The customer service is excellent.&quot;</p>
+                  <div class="testimonials__individual">
+                    <img class="testimonials__image" src="Images/Testimonial_1.png" alt="Candice Wu">
+                    <div class="testimonials__individual-flex">
+                      <h4 class="testimonials__name">Candice Wu</h4>
+                      <p class="testimonials__job-title">Product Manager, Sisyphus</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- Card 1 End -->
+            <!-- Card 2 Begin --> 
+            <div class="testimonials__card"> 
+              <div class="testimonials__stars">  
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>   
+                    <p class="testimonials__testimonial">&quot;Their repair services are life-savers! They fixed my phone's water damage when I thought all hope was lost. Absolutely recommend!&quot;</p>
+                  <div class="testimonials__individual">
+                    <img class="testimonials__image" src="Images/Testimonial_2.png" alt="Kelly Williams">
+                    <div class="testimonials__individual-flex">
+                      <h4 class="testimonials__name">Kelly Williams</h4>
+                      <p class="testimonials__job-title">Head of Design, Layers</p>
+                    </div>
+                  </div>
+            </div>
+            <!-- Card 2 End -->
+            <!-- Card 3 Begin --> 
+            <div class="testimonials__card">    
+              <div class="testimonials__stars">  
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>   
+                    <p class="testimonials__testimonial">&quot;My phone&rsquo;s screen was shattered and I thought I&rsquo;d have to buy a new one, but the repair service here saved me a lot of money. The screen looks brand new now!&quot;</p>
+                  <div class="testimonials__individual">
+                    <img class="testimonials__image" src="Images/Testimonial_3.png" alt="Koray Okumus">
+                    <div class="testimonials__individual-flex">
+                    <h4 class="testimonials__name">Koray Okumus</h4>
+                    <p class="testimonials__job-title">UX Designer, Circooles</p>
+                  </div>
+                  </div>
+            </div>
+            <!-- Card 3 End -->
+    </div>
+        </div>
+       </section>
+      <!-- Testimonials End -->
+       <!-- Contact Us Begin -->
+        <section class="contact" id="contact">
+          <div class="container">
+            <div class="contact__heading">
+              <h2 class="contact__heading-title">Contact Us</h2>
+              <p class="contact__heading-description">Got questions or need assistance?</p>
+              <p class="contact__heading-description">Contact us at Tech Dot Com! Our friendly and knowledgeable customer support team is ready to help you. Reach out to us via phone, email, or through our convenient online contact form. Don't hesitate to get in touch with us for all your electronic needs.</p>
+            </div>
+            <div class="contact__content">
+              <!-- Contact Info Section 1 Begin -->
+               <div class="contact__section">
+              <div class="contact__icon">
+                <div class="contact__icon-wrapper">
+                  <span class="contact_icon-circle">
+                <i class="far fa-envelope fa-2x"></i>
+              </span>
+              </div>
+              </div>
+              <div class="contact__info">            
+                  <h4 class="contact__info-heading">Email</h4>
+                  <p class="contact__info-description">Our friendly team is here to help.
+                  </p>
+                  <p class="contact__info-primary"><a class="contact__info-primary" href="mailto:test.ca@gmail.com">test.ca@gmail.com</a></p>    
+              </div>
+            </div>
+                <!-- Contact Info Section 1 End -->
+                 <!-- Contact Info Section 2 Begin -->
+               <div class="contact__section">
+                <div class="contact__icon">
+                  <div class="contact__icon-wrapper">
+                    <span class="contact_icon-circle">
+                  <i class="fas fa-location-dot fa-2x"></i>
+                </span>
+                </div>
+                </div>
+                <div class="contact__info">            
+                    <h4 class="contact__info-heading">Office</h4>
+                    <p class="contact__info-description">Come say hello at our office HQ.</p>
+                    <p class="contact__info-primary">Fareview Mall, 1800 Sheppard Ave East ON M2J 5A7</p>    
+                </div>
+              </div>
+                  <!-- Contact Info Section 2 End -->
+              </div>
+            </div>
+        </section>
+       <!-- Contact Us End -->
+        <!-- Footer Begin -->
+         <section class="footer" id="footer" role="contentinfo">
+            <div class="footer__grid">
+            <div class="footer__links" aria-label="Quick Links">
+              <h4 class="footer__header">Quick Links</h4>
+              <ul class="footer__links-list" aria-label="Quick Links List">
+                <li class="footer__links-item"><a href="index.html#home" class="footer__links-link" aria-label="Home">Home</a></li>
+                <li class="footer__links-item"><a href="index.html#products" class="footer__links-link" aria-label="products">Products</a></li>
+                <li class="footer__links-item"><a href="index.html#services" class="footer__links-link" aria-label="services">Services</a></li>
+                <li class="footer__links-item"><a href="index.html#about" class="footer__links-link" aria-label="about us">About Us</a></li>
+                <li class="footer__links-item"><a href="index.html#testimonials" class="footer__links-link" aria-label="testimonials">Testimonials</a></li>
+                <li class="footer__links-item"><a href="contact.html" class="footer__links-link" aria-label="contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer__links" aria-label="Additional Information">
+              <h4 class="footer__header">Additional Information</h4>
+              <ul class="footer__links-list" aria-label="Additional Information Links List">
+                <li class="footer__links-item"><a href="#" class="footer__links-link" aria-label="Privacy Policy">Privacy Policy</a></li>
+                <li class="footer__links-item"><a href="#" class="footer__links-link" aria-label="Terms and Conditions">Terms and Conditions</a></li>
+                <li class="footer__links-item"><a href="#" class="footer__links-link" aria-label="FAQs">FAQs</a></li>
+                <li class="footer__links-item"><a href="#" class="footer__links-link" aria-label="Sitemap">Sitemap</a></li>
+              </ul>
+            </div>
+            <div class="footer__links" aria-label="Store Locations">
+              <h4 class="footer__header">Store Locations</h4>
+              <ul class="footer__links-list" aria-label="Store Locations">
+                <li class="footer__links-item">
+                  <a href="#" class="footer__links-link" aria-label="Store Location">
+                  Commerce Court
+                  Concourse Level, Opp Mos Mos
+                  199 Bay Street, Toronto
+                  ON M5L1G9</a>
+                </li>
+                <li class="footer__links-item">
+                  <a href="#" class="footer__links-link" aria-label="Store Location">Promenade Mall: 1 Promenade Circle Thornhill, ON L4J 4P8</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__links" aria-label="Store Locations">
+              <ul class="footer__links-list" aria-label="Store Locations">
+                <li class="footer__links-item">
+                  <a href="#" class="footer__links-link" aria-label="Store Location">
+                    Cloverdale Mall: 250 The East Mall Toronto, ON M9B 3Y8</a>
+                </li>
+                <li class="footer__links-item">
+                  <a href="#" class="footer__links-link" aria-label="Store Location">Fairview Mall: 1800 Sheppard Avenue East Toronto, ON M2J 5A7</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__links" aria-label="Contact">
+              <div class="footer__contact">
+              <h4 class="footer__header">Contact</h4>
+              <ul class="footer__links-list" aria-label="contact">
+                <li class="footer__links-item">
+                  <a href="mailto:test.ca@gmail.com" class="footer__links-link" aria-label="Email Address">Email: test.ca@gmail.com</a></li>
+              </ul>
+            </div>
+              <div class="footer__newsletter">
+                <div class="footer__title">
+                <h4 class="footer__header">Newsletter Signup</h4>
+              </div>
+                <form action="https://formspree.io/f/xrbewgql" method="post" role="form">
+                <label for="email" class="visually-hidden">Sign Up</label>
+                <input class="footer__newsletter-input" name="Email" type="email" id="email" placeholder="Enter email to get updates"/>
+                <button type="submit" class="footer__newsletter-button" aria-label="Click to sign up"><i class="fas fa-arrow-right"></i></button>
+              </form>
+              </div>
+            </div>
+          </div>
+          </div>
+         </section>
+         <section class="footer__second-section" id="footer" role="contentinfo"> 
+            <div class="footer__flex">
+              <div class="footer__copyright">
+                <p>&copy; 2023 Tech Dot Com. All rights reserved</p>
+              </div>
+              <div class="footer__social">
+                <ul class="footer__social-links" aria-label="Social Links">
+                  <li class="footer__social-item"><a class="footer__social-link" href="https://www.linkedin.com" target="_blank" aria-label="Follow Us On LinkedIn"><span class="footer-social__icon-circle"><i class="fa-brands fa-linkedin"></i></span></a></li>
+                  <li class="footer__social-item"><a class="footer__social-link" href="https://www.facebook.com" target="_blank" aria-label="Follow Us On Facebook"><span class="footer-social__icon-circle"><i class="fa-brands fa-facebook"></i></span></a></li>
+                  <li class="footer__social-item"><a class="footer__social-link" href="https://www.twitter.com" target="_blank" aria-label="Follow Us On X"><span class="footer-social__icon-circle"><i class="fa-brands fa-twitter"></i></span></a></li>
+                </ul>
+              </div>
+            </div>
+         </section>
+        <!-- Footer End -->
+    <script src="script.js"></script>
+</body>
+</html>
