@@ -282,34 +282,34 @@ img {
     opacity: 0.6;
 }
 
-/* Products */
+/* Device Care Section */
 
-.products {
+.device__care {
     background-color: var(--quinary-color);
     border-top: 1px solid #d7d7d9;
     border-bottom: 1px solid #d7d7d9;
     padding: 2rem 4rem;
 }
 
-.products__title {
+.device__care-title {
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
     margin-bottom: 2rem;
 }
 
-.products__content {
+.device__care-content {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10rem;
 }
 
-.products__content-item-image {
+.device__care-content-item-image {
     width: 60px;
 }
 
-.products__content-item-title {
+.device__care-content-item-title {
     font-size: 0.9rem;
     font-weight: 500;
     text-align: center;
@@ -997,7 +997,7 @@ img {
     padding: 0.5rem 1rem;
     width: 100%;
     margin: 1rem 0;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 10px;
     outline-color: #cea9ca;
     z-index: 2;
@@ -1013,7 +1013,7 @@ img {
     display: block;
     height: 200px;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 10px;
     padding: 0.5rem 1rem;
     font-family: inherit;
@@ -1031,9 +1031,463 @@ img {
     margin-top: 2rem;
 }
 
+/* Products Page */
+
+/* Hero */
+
+.products__hero {
+    padding: 6rem 4rem 2rem;
+}
+
+.products__hero-flex {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 4rem 0rem;
+}
+
+.products__hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.products__hero-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.products__hero-description {
+    font-size: 0.9rem;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.products__hero-img {
+    max-width: 300px;
+}
+
+/* Mobile Cases */
+
+.mobile__cases {
+    padding: 2rem 4rem;
+}
+
+.mobile__cases-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.mobile__cases-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 160px);
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Screen Protectors */
+
+.screen__protectors {
+    padding: 6rem 4rem;
+}
+
+.screen__protectors-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.screen__protectors-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 160px);
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Camera Lens */
+
+.camera__lens {
+    padding: 0rem 4rem 2rem;
+}
+
+.camera__lens-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.camera__lens-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 160px);
+    gap: 1rem;
+    padding-left: 5rem;
+}
+
+/* Chargers & Cables */
+
+.chargers__cables {
+    padding: 4rem 2rem;
+}
+
+.chargers__cables-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.chargers__cables-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 160px);
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Services Page */
+
+/* Hero */
+
+.services__hero {
+    padding: 6rem 4rem 2rem;
+    background-color: var(--primary-color);
+}
+
+.services__hero-flex {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.services__hero-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.services__hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.services__hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+.services__hero-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.services__hero-description {
+    font-size: 0.9rem;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.services__hero-button {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--tertiary-color);
+    font-size: 13px;
+    width: 160px;
+    padding: 0.75rem 1rem;
+    background: transparent;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    
+    &:hover {
+    background-color: var(--quaternary-color);
+    border: 2px solid transparent;
+    color: var(--primary-color);
+    font-weight: 600;
+    }
+
+}
+
+.services__hero-img {
+    max-width: 350px;
+}
+
+/* Mobile Repair */
+
+.mobile__repair {
+    border-top: 1px solid #d7d7d9;
+    padding: 2rem 4rem 2rem;
+}
+
+
+.mobile__repair-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.mobile__repair-title {
+    font-size: 1.4rem;
+}
+
+.mobile__repair-text {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.mobile__repair-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 270px);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.mobile__repair-item {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.mobile__repair-item:nth-of-type(3) {
+    height: 480px;
+}
+
+.mobile__repair-item-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.mobile__repair-item-description {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-bottom: 2rem;
+}
+
+
+.mobile__repair-item-link {
+    color: var(--tertiary-color);
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.mobile__repair-item-link:hover {
+    margin-right: 0.5rem;
+}
+
+.mobile__repair-item i {
+    color: var(--tertiary-color);
+    margin-left: 0.7rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.mobile__repair-item i:hover {
+    margin-left: 1.2rem;
+}
+
+.mobile__repair-item-image {
+    max-width: 240px;
+}
+
+/* Laptop Repair */
+
+.laptop__repair {
+    padding: 6rem 4rem 2rem;
+}
+
+.laptop__repair-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.laptop__repair-title {
+    font-size: 1.4rem;
+}
+
+.laptop__repair-text {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.laptop__repair-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.laptop__repair-item {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.laptop__repair-item:nth-of-type(2) .laptop__repair-item-description {
+    margin-bottom: 6.8rem;
+}
+
+.laptop__repair-item:nth-of-type(3) .laptop__repair-item-description {
+    margin-bottom: 5.5rem;
+}
+
+.laptop__repair-item-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.laptop__repair-item-description {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-bottom: 2rem;
+}
+
+
+.laptop__repair-item-link {
+    color: var(--tertiary-color);
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.laptop__repair-item-link:hover {
+    margin-right: 0.5rem;
+}
+
+.laptop__repair-item i {
+    color: var(--tertiary-color);
+    margin-left: 0.7rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.laptop__repair-item i:hover {
+    margin-left: 1.2rem;
+}
+
+.laptop__repair-item-image {
+    max-width: 100%;
+}
+
+/* Computer Repair */
+
+.computer__repair {
+    padding: 6rem 4rem 2rem;
+}
+
+.computer__repair-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.computer__repair-title {
+    font-size: 1.4rem;
+}
+
+.computer__repair-text {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.computer__repair-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.computer__repair-item {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.computer__repair-item-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.computer__repair-item-description {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-bottom: 2rem;
+}
+
+.computer__repair-item:nth-of-type(2) .computer__repair-item-description {
+    margin-bottom: 3rem;
+}
+
+.computer__repair-item:nth-of-type(3) .computer__repair-item-description {
+    margin-bottom: 3rem;
+}
+
+.computer__repair-item-link {
+    color: var(--tertiary-color);
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.computer__repair-item-link:hover {
+    margin-right: 0.5rem;
+}
+
+.computer__repair-item i {
+    color: var(--tertiary-color);
+    margin-left: 0.7rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.computer__repair-item i:hover {
+    margin-left: 1.2rem;
+}
+
+.computer__repair-item-image {
+    max-width: 100%;
+}
+
 /* Media Queries */
 
 @media(max-width: 992px) {
+    /* Index Page */
+
     /* Navbar Section */
     
     .navbar__main-menu-items {
@@ -1044,8 +1498,8 @@ img {
         display: block;
     }
 
-    /* Products */
-    .products__content {
+    /* Device care */
+    .device__care-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
@@ -1085,9 +1539,124 @@ img {
     .store__locations-card:nth-of-type(4) .store__locations-button {
         margin-top: 1rem;
     }
+
+    /* Products Page*/
+
+    /* Hero */
+    .products__hero-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Mobile Cases */
+    .mobile__cases-grid {
+        grid-template-columns: repeat(3, 200px);
+    }
+
+    /* Screen Protectors */
+    .screen__protectors-grid {
+        grid-template-columns: repeat(3, 200px);
+    }
+
+    /* Camera Lens */
+    .camera__lens-grid {
+        grid-template-columns: repeat(3, 200px);
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    /* Chargers & Cables */
+    .chargers__cables-grid {
+        grid-template-columns: repeat(3, 200px);
+    }
+
+    /* Services Page */
+
+    /* Hero */
+    .services__hero-flex {
+        flex-direction: column;
+    }
+
+    /* Mobile Repair */
+    .mobile__repair-grid {
+        grid-template-columns: repeat(3, 230px);
+        padding: 0 2rem;
+    }
+
+    .mobile__repair-item-image {
+        max-width: 200px;
+    }
+
+    .mobile__repair-item:nth-of-type(3) {
+        height: 465px;
+    }
+
+    .mobile__repair-item:nth-of-type(3) .mobile__repair-item-description {
+        margin-bottom: 0.5rem;
+    }
+
+    /* Laptop Repair */
+    .laptop__repair-grid {
+        grid-template-columns: repeat(3, 200px);
+    } 
+
+    .laptop__repair-item-title {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+    }
+    
+    .laptop__repair-item-description {
+        font-size: 0.8rem;
+        opacity: 0.7;
+        margin-bottom: 2rem;
+    }
+
+    .laptop__repair-item:nth-of-type(2) .laptop__repair-item-description {
+        margin-bottom: 8.8rem;
+    }
+
+    .laptop__repair-item:nth-of-type(3) .laptop__repair-item-description {
+        margin-bottom: 9rem;
+    }
+
+    .laptop__repair-item:nth-of-type(3) .laptop__repair-item-title {
+        margin-bottom: 1.8rem;
+    }
+
+    /* Computer Repair */
+    .computer__repair-grid {
+        grid-template-columns: repeat(3, 200px);
+    } 
+
+    .computer__repair-item-title {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+    }
+    
+    .computer__repair-item-description {
+        font-size: 0.8rem;
+        opacity: 0.7;
+        margin-bottom: 2rem;
+    }
+
+    .computer__repair-item:nth-of-type(1) .computer__repair-item-title {
+        margin-top: 1rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .computer__repair-item:nth-of-type(1) .computer__repair-item-description {
+        margin-bottom: 0.7rem;
+    }
+
+    .computer__repair-item:nth-of-type(3) .computer__repair-item-description {
+        margin-bottom: 1.5rem;
+    }
+
 }
 
 @media(max-width: 768px) {  
+    /* Index Page */
+
     /* Hero */
     .hero__stats {
         display: grid;
@@ -1192,9 +1761,90 @@ img {
     .store__locations-card:nth-of-type(1) .store__locations-button {
         margin-top: 1rem;
     }
+
+    /* Services Page */
+
+    /* Mobile Cases */
+    .mobile__cases-grid {
+        grid-template-columns: repeat(2, 200px);
+    }
+
+    /* Screen Protectors */
+    .screen__protectors-grid {
+        grid-template-columns: repeat(2, 200px);
+    }
+
+    /* Chargers & Cables */
+    .chargers__cables-grid {
+        grid-template-columns: repeat(3, 150px);
+    }
+
+    /* Mobile Repair */
+    .mobile__repair-grid {
+        grid-template-columns: minmax(100px, 1fr);
+        gap: 3rem;
+        text-align: center;
+    }
+
+    .mobile__repair-item {
+        padding: 3rem;
+    }
+
+    .mobile__repair-item-image {
+        max-width: 100%;
+    }
+
+    .mobile__repair-item:nth-of-type(3) {
+        height: 100%;
+    }
+
+    .mobile__repair-item:nth-of-type(3) .mobile__repair-item-description {
+        margin-bottom: 1.5rem;
+    }
+
+    /* Laptop Repair */
+    .laptop__repair-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
+    }
+
+    .laptop__repair-item:nth-of-type(2) .laptop__repair-item-description {
+        margin-bottom: 2rem;
+    }
+
+    .laptop__repair-item:nth-of-type(3) .laptop__repair-item-description {
+        margin-bottom: 2rem;
+    }
+
+    .laptop__repair-item:nth-of-type(3) .laptop__repair-item-title {
+        margin-bottom: 1rem;
+    }
+
+    .laptop__repair-item-image {
+        width: 100%;
+    }
+
+    /* Computer Repair */
+
+    .computer__repair-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
+    }
+
+    .computer__repair-item-image {
+        width: 100%;
+    }
+
+    .computer__repair-item:nth-of-type(2) .computer__repair-item-description {
+        margin-bottom: 2rem;
+    }
 }
 
 @media (max-width: 576px) {
+    /* Index Page */
+
     /* Hero */
     .hero__buttons {
         flex-direction: column;
@@ -1208,4 +1858,49 @@ img {
         gap: 4rem;
     }
 
+    /* Products Page */
+
+    /* Mobile Cases */
+    .mobile__cases-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    /* Screen Protectors */
+    .screen__protectors-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    /* Camera Lens */
+    .camera__lens-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .chargers__cables-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Services Page */
+    
+    /* Hero */
+    .services__buttons {
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    /* Mobile Repair */
+    .mobile__repair-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mobile__repair-item:nth-of-type(3) {
+        height: 100%;
+    }
+
+    .mobile__repair-item:nth-of-type(3) .mobile__repair-item-description {
+        margin-bottom: 1.5rem;
+    }
 }
